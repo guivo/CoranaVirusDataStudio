@@ -1,0 +1,13 @@
+{
+  "runtimeVersion": "V8",
+  "dataStudio": {
+    "name": "COVID-19 (2019-nCoV) Data",
+    "logoUrl": "https://github.com/guivo/CoranaVirusDataStudio/raw/master/covid19_logo.jpeg",
+    "company": "Guido Volpi",
+    "companyUrl": "https://github.com/guivo/CoranaVirusDataStudio",
+    "addonUrl": "https://github.com/guivo/CoranaVirusDataStudio",
+    "supportUrl": "https://github.com/guivo/CoranaVirusDataStudio/issues",
+    "description": "Retrieve data about COVID-19 (2019-nCoV) epidemic from the official data repository by Johns Hopkins CSSE",
+    "sources": ["github"]
+  }
+}
