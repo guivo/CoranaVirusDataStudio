@@ -238,7 +238,12 @@ function responseToRows(requestedFields, content, dataset, dateRange) {
       
       rowsArea = rowsArea.slice(1).map(function(v) {
         val = v.values[idValDaily]
-        v.values[idValDaily] -= prevVal;
+        var dval = val-prevVal;
+        if (dval<0) {
+          dval = 0; // limit the increment
+        }
+        v.values[idValDaily] -= dval;
+
         prevVal = val;
         return v;
       });
