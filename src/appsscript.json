@@ -8,6 +8,9 @@
     "addonUrl": "https://github.com/guivo/CoranaVirusDataStudio",
     "supportUrl": "https://github.com/guivo/CoranaVirusDataStudio/issues",
     "description": "Retrieve data about COVID-19 (2019-nCoV) epidemic from the official data repository by Johns Hopkins CSSE",
-    "sources": ["github"]
+    "sources": ["github"],
+    "templates": {
+      "default": "https://datastudio.google.com/reporting/55852059-15e0-4f94-8eaf-4cb9329aa40c"
+    }
   }
 }
